@@ -16,3 +16,7 @@ def fake_data():
 def call_web_service(url="http://localhost:5000/fakedata"):
     res = requests.get(url)
     return json.loads(res.content)
+
+def addition(a,b):
+    """Return the sum of two numbers"
+    return a+b
